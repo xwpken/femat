@@ -5,7 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pyfemat"
 version = "0.1.0"
-description = "FEMAT — Python interface"
+description = "Python interface of FEMAT"
+urls = {homepage = "https://github.com/xwpken/femat"}
+authors = [{name = "Weipeng Xu", email = "wxuby@connect.ust.hk"}]
+readme = "README.md"
+license = {file = "LICENSE"}
 
 [tool.setuptools]
 package-dir = {"" = "src"}

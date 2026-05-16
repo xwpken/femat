@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/xwpken/femat)](https://github.com/xwpken/femat/stargazers) [![GitHub forks](https://img.shields.io/github/forks/xwpken/femat)](https://github.com/xwpken/femat/fork) [![GitHub license](https://img.shields.io/github/license/xwpken/femat)](https://github.com/xwpken/femat/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/xwpken/femat)](https://github.com/xwpken/femat/issues)
 
 
-**FEMAT** is a compact finite element library implementing 2D/3D linear elasticity and geometric nonlinear analysis (Total Lagrangian formulation), with both MATLAB and Python interfaces. The codebase was developed as part of my master's studies in topology optimization. The library is designed to be modular and extensible, allowing users to easily add new material models, element types, and analysis capabilities.
+**FEMAT** is a compact finite element library implementing 2D/3D linear elasticity and geometric nonlinear analysis (Total Lagrangian formulation), with both MATLAB and Python interfaces. The codebase was initially developed during my master's studies, with the purpose of research in topology optimization. Now it has been refactored to be modular and extensible, allowing users to easily add new material models, element types, and analysis capabilities.
 
 ---
 
@@ -11,7 +11,7 @@
 
 | Category | Capabilities |
 |:---|---|
-| **Analysis** | `small_strain` (Linear elasticity), `finite_strain` (Geometrical nonlinearity) |
+| **Analysis** | `small_strain` (Linear elasticity), `finite_strain` (Geometric nonlinearity) |
 | **Constitutive** | `linear_elastic` (plane stress / plane strain / 3D), `hyperelastic` (SVK, Neo-Hookean) |
 | **Elements** | `QUAD4`, `TRI3` (2D); `HEX8`, `TET4` (3D) |
 | **Interface** | MATLAB (CLI) + Python package (`pyfemat`) |
@@ -33,7 +33,7 @@ Then run any example from the project root.
 
 ```bash
 pip install matlabengine           # MATLAB Engine API
-pip install -e /path/to/femat      # install pyfemat
+pip install -e .                   # install pyfemat (editable mode)
 ```
 
 Please ensure that you have MATLAB installed and properly configured to use the MATLAB Engine API for Python. Refer to the [MATLAB documentation](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html) for detailed instructions.

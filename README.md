@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/xwpken/femat)](https://github.com/xwpken/femat/stargazers) [![GitHub forks](https://img.shields.io/github/forks/xwpken/femat)](https://github.com/xwpken/femat/fork) [![GitHub license](https://img.shields.io/github/license/xwpken/femat)](https://github.com/xwpken/femat/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/xwpken/femat)](https://github.com/xwpken/femat/issues)
 
 
-**FEMAT** is a compact finite element library implementing 2D/3D linear elasticity and geometric nonlinear analysis (Total Lagrangian formulation), with both MATLAB and Python interfaces. The codebase was initially developed during my master's studies, with the purpose of research in topology optimization. Now it has been refactored to be modular and extensible, allowing users to easily add new material models, element types, and analysis capabilities.
+**FEMAT** is a compact finite element library implementing 2D/3D linear elasticity and geometric nonlinear analysis (Total Lagrangian formulation), with both MATLAB and Python interfaces. The codebase was initially developed during my master's studies for the research on topology optimization. Now it has been refactored to be modular and extensible, allowing users to easily add new material models, element types, and analysis capabilities.
 
 ---
 
@@ -20,14 +20,20 @@
 
 ## Installation
 
-### MATLAB
+Clone the repository:
 
-```matlab
->> cd /path/to/femat
->> setup
+```bash
+git clone https://github.com/xwpken/femat.git
+cd femat
 ```
 
-Then run any example from the project root.
+### MATLAB
+
+Run the setup script to add the project to the MATLAB path:
+
+```matlab
+>> setup
+```
 
 ### Python
 

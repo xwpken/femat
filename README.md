@@ -11,7 +11,7 @@
 
 | Category | Capabilities |
 |:---|---|
-| **Analysis** | `small_strain` (Linear elasticity), `finite_strain` (Geometric nonlinearity) |
+| **Analysis** | `small_strain` (linear elasticity), `finite_strain` (geometric nonlinearity) |
 | **Constitutive** | `linear_elastic` (plane stress / plane strain / 3D), `hyperelastic` (SVK, Neo-Hookean) |
 | **Elements** | `QUAD4`, `TRI3` (2D); `HEX8`, `TET4` (3D) |
 | **Interface** | MATLAB (CLI) + Python package (`pyfemat`) |

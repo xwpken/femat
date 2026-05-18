@@ -120,7 +120,7 @@ solution.dofs                                      # displacement vector
 If you find this library useful in your research, please consider citing it as follows:
 ```bibtex
 @misc{femat_github,
-  author       = {xwpken},
+  author       = {Weipeng Xu},
   title        = {femat},
   year         = {2026},
   publisher    = {GitHub},
